@@ -35,29 +35,29 @@ Install:
 ## Test Execution
 - For commandline execution:
 - Runs the end-to-end tests. (runs all tests on all browsers in headless mode)
-  ```npx playwright test```
+  - ```npx playwright test```
   
 - Runs with 3 workers in parallel
-  - ```npx playwright test --workers 3
+  - ```npx playwright test --workers 3```
     
 - Runs a specific test file/s
   - ```npx playwright test onespec.js```
   - ```npx playwright test onespec.js twospec.js```
-
+    
 - Runs test with test description
   - ```npx playwright test -g "<test description>"```
-  - 
+    
 - Starts the interactive UI mode.
-  ```npx playwright test --ui```
+  - ```npx playwright test --ui```
   
 - Runs the tests only on Desktop Chrome.
-  ```npx playwright test --project=chromium```
+  - ```npx playwright test --project=chromium```
 
 - Runs the tests in a specific file.
-  ```npx playwright test example```
+  - ```npx playwright test example```
 
 - Runs the tests in debug mode.
-  ```npx playwright test --debug```
+  - ```npx playwright test --debug```
 
 ## Reports
 To open last HTML report run:
@@ -70,7 +70,7 @@ It opens two windows
 2. Playwright inspector to record tests
    
 - Auto generate tests with Codegen.
-  ```npx playwright codegen```
+  - ```npx playwright codegen```
 
 # Test Environment
 - https://www.saucedemo.com/
