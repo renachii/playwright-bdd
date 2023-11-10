@@ -80,4 +80,5 @@ It opens two windows
 - https://playwright.dev/docs/actionability
 - https://playwright.dev/docs/test-assertions
 - https://playwright.dev/docs/accessibility-testing
+- https://playwright.dev/docs/locators
 
