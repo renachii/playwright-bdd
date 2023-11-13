@@ -1,4 +1,4 @@
-# cypress-bdd
+# playwright-bdd
 playwright cucumber bdd
 
 - Playwright 1.39.0
