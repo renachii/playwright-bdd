@@ -1,5 +1,3 @@
-const { expect } = require('@playwright/test');
-
 exports.CartPage = class CartPage {
 
   /**
@@ -13,7 +11,7 @@ exports.CartPage = class CartPage {
   }
 
   async pageObjectModel() {
-    await this.getStarted();
+    await this.getStartedLink.click();
     await this.pomLink.click();
   }
 };

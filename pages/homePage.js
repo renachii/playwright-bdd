@@ -1,5 +1,3 @@
-const { expect } = require('@playwright/test');
-
 exports.HomePage = class HomePage {
 
   /**
@@ -17,7 +15,7 @@ exports.HomePage = class HomePage {
   }
 
   async logout() {
-    await this.burgerButton().click();
-    await this.logoutButton().click();
+    await this.burgerButton.click();
+    await this.logoutButton.click();
   }
 };

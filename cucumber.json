@@ -1,0 +1,20 @@
+{
+    "default": {
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "dryRun": false,
+        "paths": [
+            "src/tests/features/"
+        ],
+        "require": [
+            "src/tests/stepDefinitions/*.js"
+        ],
+        "requireModule": [
+            ""
+        ],
+        "format": [
+            "html:test-results/cucumber-report.html"
+        ]
+    }
+}

@@ -1,5 +1,3 @@
-const { expect } = require('@playwright/test');
-
 exports.LoginPage = class LoginPage {
 
   /**
@@ -7,7 +5,6 @@ exports.LoginPage = class LoginPage {
    */
   constructor(page) {
     this.page = page;
-    // this.getStartedLink = page.locator('a', { hasText: 'Get started' });
     this.title = page.locator("//div[@class='login_logo']");
     this.userInput = page.locator("//input[@id='user-name']");
     this.passwordInput = page.locator('#password');
@@ -16,9 +13,8 @@ exports.LoginPage = class LoginPage {
   }
 
   async login(username, password) {
-    await this.userInput().fill(username);
-    await this.passwordInput().fill(password);
-    await this.loginButton().click();
+    await this.userInput.fill(username);
+    await this.passwordInput.fill(password);
+    await this.loginButton.click();
   }
-
 };
