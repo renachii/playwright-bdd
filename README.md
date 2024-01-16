@@ -61,6 +61,7 @@ It opens two windows
 
 # References
 - https://playwright.dev/docs/best-practices
+- https://playwright.dev/docs/test-cli
 - https://playwright.dev/docs/actionability
 - https://playwright.dev/docs/test-assertions
 - https://playwright.dev/docs/accessibility-testing
